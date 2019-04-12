@@ -5,6 +5,8 @@ using DistributedArrays
 using DistributedArrays.SPMD
 using FFTW
 
+
+
 export brfft
 
 function transpose3D(x)
@@ -102,7 +104,7 @@ end
     end
 end
 
-function brfft(D::DArray, d::Int, dims=1:ndims(D))
+function FFTW.brfft(D::DArray, d::Int, dims=1:ndims(D))
     @assert div(d,2) + 1 == size(D,dims[1])
     @assert length(dims) == 3 #Temporary
     pids = procs(D)

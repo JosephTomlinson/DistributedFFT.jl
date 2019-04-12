@@ -12,7 +12,7 @@ using FFTW
     np = length(pids)
     D = drand(Complex{Float64}, (51, 100, 100), pids, [np,1,1])
     C = copy(Array(D))
-    @test isapprox(Array(DFFT.brfft(D, 100)), brfft(C,100))
+    @test isapprox(Array(brfft(D, 100)), brfft(C,100))
 end
 
 end

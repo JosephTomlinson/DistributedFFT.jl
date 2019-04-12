@@ -1,3 +1,8 @@
+authors = ["Joe Tomlinson <jxt732@psu.edu>"]
+name = "DistributedFFT"
+uuid = "5f64af6a-5d2f-11e9-2d6bca5a5134"
+version = "0.1.0"
+
 [deps]
 DistributedArrays = "aaf54ef3-cdf8-58ed-94cc-d582ad619b94"
 FFTW = "7a1cc6ca-52ef-59f5-83cd-3a7055c09341"

@@ -8,8 +8,7 @@ Also only supports out of place, but inplace variants are planned once I can fin
 Package can be installed with
 
 ```julia
-using Pkg
-Pkg.add("https://github.com/JosephTomlinson/DistributedFFT.jl")
+pkg> add https://github.com/JosephTomlinson/DistributedFFT.jl.git
 ```
 
 Example usage

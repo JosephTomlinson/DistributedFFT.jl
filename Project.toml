@@ -1,6 +1,6 @@
 authors = ["Joe Tomlinson <jxt732@psu.edu>"]
 name = "DistributedFFT"
-uuid = "5f64af6a-5d2f-11e9-2d6bca5a5134"
+uuid = "5f64af6a-5d2f-11e9-3c7f-2d6bca5a5134"
 version = "0.1.0"
 
 [deps]
